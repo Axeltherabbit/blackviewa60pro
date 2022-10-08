@@ -7,12 +7,13 @@ Get an image from https://github.com/phhusson/treble_experimentations/releases (
 # stock image files
 https://anonfiles.com/Xbq3FeB0y5/blackview_zip
 
-## Unlock bootloader
+# Unlock bootloader
 
 1. Enable developer mode 
 2. OEM unlock
 3. `fastboot flashing unlock`
 
+# Good tutorials and files
 All credits for the files and tutorials to : https://www.youtube.com/user/vivalaJamie01/videos
 
 - fix hard bricked device : https://www.youtube.com/watch?v=tbWXPfd4olQ
@@ -23,22 +24,25 @@ All credits for the files and tutorials to : https://www.youtube.com/user/vivala
 # This phone has a faulty usb charging port
 - fix guide : https://www.youtube.com/watch?v=CewzzDd9Itw
 
+
+# Fastboot usage
 ## Check if you can detect the device in fastboot mode
 `fastboot devices # check if the device is detected`
 
 ## bootloader unlock
-`fastboot flashing unlock # do not do this if you have unlocked the bootloader in the past`
+do not do this if you have unlocked the bootloader in the past
+
+`fastboot flashing unlock`
 
 ## To do each time you want to flash something
 `fastboot --disable-verification flash vbmeta vbmeta.img`
 
-## To flash the recovery
+## How to flash partitions
+- recovery
 `fastboot flash recovery recovery.img`
-
-## To flash the system
+- system
 `fastboot flash system system.img`
-
-## To flash the boot
+- boot
 `fastboot flash boot boot.img`
 
 
