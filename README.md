@@ -14,7 +14,7 @@ Get an image from https://github.com/phhusson/treble_experimentations/releases (
 All credits for the files and tutorials to : https://www.youtube.com/user/vivalaJamie01/videos
 
 - fix hard bricked device : https://www.youtube.com/watch?v=tbWXPfd4olQ
-- fix imei : https://www.youtube.com/watch?v=ebAF79ZltcE
+- fix imei : https://www.youtube.com/watch?v=ebAF79ZltcE (unfortunately this only works on windows)
 - install twrp and magisk : https://www.youtube.com/watch?v=Q0mvdF3qeR0
 - root : https://www.youtube.com/watch?v=m6lvYCMflX8
 
