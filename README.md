@@ -4,7 +4,8 @@ AOSP/GSI works perfectly well
 
 Get an image from https://github.com/phhusson/treble_experimentations/releases (arm64_ab)
 
-stock image files are in blackview.zip
+# stock image files
+https://anonfiles.com/Xbq3FeB0y5/blackview_zip
 
 ## Unlock bootloader
 
