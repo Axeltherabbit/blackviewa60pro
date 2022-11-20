@@ -49,3 +49,7 @@ do not do this if you have unlocked the bootloader in the past
 # Fix magisk after upgrading the system
 If magisk doesn't find itself after upgrading the system partition or it conflicts with superuser, flash boot.img and reinstall magisk with superuser permission again
 
+## Bugs
+- https://github.com/phhusson/treble_experimentations/issues/2478
+
+
